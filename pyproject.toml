@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "python-test"
+version = "0.1.0"
+description = ""
+authors = ["Justin Nguyen <8205858+nguyenhjustin@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "python_test"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
